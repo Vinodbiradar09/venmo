@@ -1,2 +1,4 @@
 
 /* @import "tailwindcss" prefix(ui); */
+
+@import "@repo/tailwind-config";

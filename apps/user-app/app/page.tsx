@@ -25,7 +25,7 @@ export default function Home() {
       <div className="bg-red-800"> 
         Hello
       </div>
-      <div className="bg-white">
+      <div>
         <Admin />
       </div>
       <main className={styles.main}>
