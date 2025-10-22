@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
+import Admin from "@repo/ui/admin";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -21,6 +22,12 @@ const ThemeImage = (props: Props) => {
 export default function Home() {
   return (
     <div className={styles.page}>
+      <div className="bg-red-800"> 
+        Hello
+      </div>
+      <div className="bg-white">
+        <Admin />
+      </div>
       <main className={styles.main}>
         <ThemeImage
           className={styles.logo}
@@ -35,6 +42,7 @@ export default function Home() {
           <li>
             Get started by editing <code>apps/web/app/page.tsx</code>
           </li>
+          <p>user app web 3000</p>
           <li>Save and see your changes instantly.</li>
         </ol>
 

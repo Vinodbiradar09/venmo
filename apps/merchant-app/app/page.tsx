@@ -35,6 +35,8 @@ export default function Home() {
           <li>
             Get started by editing <code>apps/docs/app/page.tsx</code>
           </li>
+          <p>merchant app docs 3001</p>
+          <p className="bg-red-600">Hello tailwind applied </p>
           <li>Save and see your changes instantly.</li>
         </ol>
 
